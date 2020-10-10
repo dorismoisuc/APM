@@ -1,7 +1,7 @@
 package Model;
 
 public interface Aquarium {
-    int getAge();
+    double getAge();
     String getName();
     String toString();
 }
