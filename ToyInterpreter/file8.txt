@@ -1,0 +1,306 @@
+
+PROGRAM ID= 1
+EXE STACK= [ varf← string_type | varf= file.in | varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varf← string_type|varf= file.in | varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varf← string_type|varf= file.in | varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varf= file.in | varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf →  ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varf= file.in | varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf →  ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varf= file.in|varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf →  ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varf= file.in|varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf →  ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varc← int_type |  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varc← int_type| OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ varc← int_type| OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OPEN FILE(varf)  |  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OPEN FILE(varf) | READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OPEN FILE(varf) | READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc)  |  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc) | OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc) | OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 0 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc)  |  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc) | READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc) | READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [  ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc)  |  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc) | OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  READ FILE(varc) | OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 20 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 30 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc)  |  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 30 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc) | CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 30 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(varc) | CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 30 ]
+OUT= [ 20 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 30 ]
+OUT= [ 20 , 30 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  CLOSE FILE(varf)  ]
+SYM TABLE=  [varf → file.in , varc → 30 ]
+OUT= [ 20 , 30 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  ]
+SYM TABLE=  [varf → file.in , varc → 30 ]
+OUT= [ 20 , 30 ]
+FILE TABLE= [ file.in → java.io.BufferedReader@5eb5c224 ]
+HEAP= [  ]
+
+________________________________________________________________

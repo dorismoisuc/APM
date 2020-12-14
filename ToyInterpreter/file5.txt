@@ -1,0 +1,486 @@
+
+PROGRAM ID= 1
+EXE STACK= [ x← int_type | x= 10 |  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x← int_type|x= 10 |  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x← int_type|x= 10 |  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 10 |  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 10 |  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 10| WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 10| WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) } |  OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 10 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 9 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 8 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 7 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  | x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x) |x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 , 6 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x=  (x-1) | WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 6 ]
+OUT= [ 10 , 9 , 8 , 7 , 6 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 5 ]
+OUT= [ 10 , 9 , 8 , 7 , 6 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  WHILE (  (x>5)  ) { OUT(x)  | x=  (x-1) }| OUT(x)  ]
+SYM TABLE=  [x → 5 ]
+OUT= [ 10 , 9 , 8 , 7 , 6 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  ]
+SYM TABLE=  [x → 5 ]
+OUT= [ 10 , 9 , 8 , 7 , 6 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(x)  ]
+SYM TABLE=  [x → 5 ]
+OUT= [ 10 , 9 , 8 , 7 , 6 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  ]
+SYM TABLE=  [x → 5 ]
+OUT= [ 10 , 9 , 8 , 7 , 6 , 5 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________

@@ -1,0 +1,162 @@
+
+PROGRAM ID= 1
+EXE STACK= [ a← int_type | b← int_type | a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← int_type|b← int_type | a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← int_type|b← int_type | a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b← int_type | a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b← int_type | a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b← int_type|a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b← int_type|a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a=  (2+ (3*5) )  | b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a=  (2+ (3*5) ) |b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a=  (2+ (3*5) ) |b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 0 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 17 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b=  (a+1)  |  OUT(b)  ]
+SYM TABLE=  [a → 17 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b=  (a+1) | OUT(b)  ]
+SYM TABLE=  [a → 17 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ b=  (a+1) | OUT(b)  ]
+SYM TABLE=  [a → 17 , b → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(b)  ]
+SYM TABLE=  [a → 17 , b → 18 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(b)  ]
+SYM TABLE=  [a → 17 , b → 18 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  ]
+SYM TABLE=  [a → 17 , b → 18 ]
+OUT= [ 18 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________

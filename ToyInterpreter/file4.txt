@@ -1,0 +1,90 @@
+
+PROGRAM ID= 1
+EXE STACK= [ x← int_type | x= 2 |  OUT( (x==2) )  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x← int_type|x= 2 |  OUT( (x==2) )  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x← int_type|x= 2 |  OUT( (x==2) )  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 2 |  OUT( (x==2) )  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 2 |  OUT( (x==2) )  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 2| OUT( (x==2) )  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ x= 2| OUT( (x==2) )  ]
+SYM TABLE=  [x → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT( (x==2) )  ]
+SYM TABLE=  [x → 2 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT( (x==2) )  ]
+SYM TABLE=  [x → 2 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  ]
+SYM TABLE=  [x → 2 ]
+OUT= [ true ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________

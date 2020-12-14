@@ -1,0 +1,180 @@
+
+PROGRAM ID= 1
+EXE STACK= [ a← bool_type | v← int_type | a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← bool_type|v← int_type | a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← bool_type|v← int_type | a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v← int_type | a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v← int_type | a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v← int_type|a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v← int_type|a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a= true | IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a= true|IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a= true|IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → false , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → true , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ IF (a) THEN{ v= 2 ELSE { v= 3}  |  OUT(v)  ]
+SYM TABLE=  [a → true , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ IF (a) THEN{ v= 2 ELSE { v= 3} | OUT(v)  ]
+SYM TABLE=  [a → true , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ IF (a) THEN{ v= 2 ELSE { v= 3} | OUT(v)  ]
+SYM TABLE=  [a → true , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v= 2| OUT(v)  ]
+SYM TABLE=  [a → true , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v= 2| OUT(v)  ]
+SYM TABLE=  [a → true , v → 0 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(v)  ]
+SYM TABLE=  [a → true , v → 2 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT(v)  ]
+SYM TABLE=  [a → true , v → 2 ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  ]
+SYM TABLE=  [a → true , v → 2 ]
+OUT= [ 2 ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________

@@ -1,0 +1,198 @@
+
+PROGRAM ID= 1
+EXE STACK= [ v← ref_type int_type |  NEW STMT (v,20)  | a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v← ref_type int_type| NEW STMT (v,20)  | a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ v← ref_type int_type| NEW STMT (v,20)  | a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [ ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,20)  | a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 0 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,20)  | a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 0 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,20) |a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 0 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,20) |a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 0 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [  ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← ref_type ref_type int_type |  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← ref_type ref_type int_type| NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [ a← ref_type ref_type int_type| NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 0 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (a,v)  |  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 0 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (a,v) | NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 0 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (a,v) | NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 0 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 2 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 , 2←  1 ,  int_type ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,30)  |  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 2 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 , 2←  1 ,  int_type ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,30) | OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 2 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 , 2←  1 ,  int_type ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  NEW STMT (v,30) | OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 2 ,  ref_type int_type , v → 1 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 , 2←  1 ,  int_type ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 2 ,  ref_type int_type , v → 3 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 , 2←  1 ,  int_type , 3←  30 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  OUT( read heap ( read heap (a) ) )  ]
+SYM TABLE=  [a → 2 ,  ref_type int_type , v → 3 ,  int_type ]
+OUT= [  ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 , 2←  1 ,  int_type , 3←  30 ]
+
+________________________________________________________________
+
+PROGRAM ID= 1
+EXE STACK= [  ]
+SYM TABLE=  [a → 2 ,  ref_type int_type , v → 3 ,  int_type ]
+OUT= [ 20 ]
+FILE TABLE= [  ]
+HEAP= [ 1← 20 , 2←  1 ,  int_type , 3←  30 ]
+
+________________________________________________________________
